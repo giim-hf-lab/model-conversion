@@ -1,0 +1,24 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="yolov5-torchscript" type="PythonConfigurationType" factoryName="Python" singleton="false">
+    <module name="model-conversion" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="PYTHONUNBUFFERED" value="1" />
+    </envs>
+    <option name="SDK_HOME" value="$PROJECT_DIR$/env/torch/python.exe" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/externals/yolov5" />
+    <option name="IS_MODULE_SDK" value="false" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/externals/yolov5/export.py" />
+    <option name="PARAMETERS" value="--weights ../../weights/torch/yolov5n.pt ../../weights/torch/yolov5s.pt ../../weights/torch/yolov5m.pt ../../weights/torch/yolov5l.pt ../../weights/torch/yolov5x.pt --img-size 640 --inplace --include torchscript" />
+    <option name="SHOW_COMMAND_LINE" value="false" />
+    <option name="EMULATE_TERMINAL" value="false" />
+    <option name="MODULE_MODE" value="false" />
+    <option name="REDIRECT_INPUT" value="false" />
+    <option name="INPUT_FILE" value="" />
+    <method v="2" />
+  </configuration>
+</component>

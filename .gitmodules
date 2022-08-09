@@ -1,0 +1,8 @@
+[submodule "externals/PaddleOCR2Pytorch"]
+	path = externals/PaddleOCR2Pytorch
+	url = git@github.com:frotms/PaddleOCR2Pytorch.git
+	ignore = dirty
+[submodule "externals/yolov5"]
+	path = externals/yolov5
+	url = git@github.com:ultralytics/yolov5.git
+	ignore = dirty
